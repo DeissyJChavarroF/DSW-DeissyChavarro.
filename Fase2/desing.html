@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo-desing.css" rel="stylesheet" type="text/css" title="Fase2">
+    <title>Fase 2</title>
+</head>
+<body>
+    <!-- Comienzo encabezado -->
+    <header>
+        <table><tr>
+        <td><h1> 
+            Conoce los Fundamentos de HTML y la Interacción Humano Ordenador 
+        </h1></td>
+        <td> <img src="img/logo.png" alt="logo" width="92px" height="92px"></td>
+        </tr></table>
+    </header>
+    <!-- Fin encabezado -->
+    <!-- Comienzo barra de navegación -->
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Temas
+                <ul>
+                    <li>Fundamentos HTML</li>
+                    <li>Interacción Humano Ordenador</li>
+                </ul>
+            </li>
+            <li>Recursos
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                </ul>
+            </li>
+            <li>Aprendizaje
+                <ul>
+                    <li>Actividad 1</li>
+                    <li>Actividad 2</li>
+                </ul>
+            </li>
+            </li>
+            <li>Autor</li>
+        </ul>
+    </nav>
+    <!-- Fin barra de navegación -->
+    <!-- Comienzo contenido de la página -->
+    <section>
+        <h3>
+            Propósito del Sitio
+        </h3>
+        <p>
+            Este sitio tiene como propósito fortalecer, impulsar, fomentar y mostrar la importancia del aprendizaje de HTML y la interacción
+            humana enfocado en los fundamentos y la relación entre el humano y el ordenador. <br>
+            Mediante la globalización tecnológica que ha tenido un recurso como el computador y todos los elementos derivados de este, así como
+            los cambios que se han presentado en la sociedad contemporánea trayendo consigo los retos del nuevo siglo, se ve necesario
+            mostrar un panorama más claro hacia el usuario final, familiarizándolo con el proceso y un poco de historia de cómo día a día 
+            la sociedad se alimenta de tanta información ahora de forma digital.<br>
+            <b>Para dar respuesta a ésta necesidad que surge en el aula de clase y en la vida misma es importante abrir nuevos espacios para la 
+            transformación del método de aprendizaje y por consiguiente de los recursos para éste.</b>
+        </p>
+        <hr width="60%">
+        <article>
+            <h3>Fundamentos HTML</h3>
+            <p>
+                Todas las páginas WEB (referencia a la palabra telaraña o red informatica), cuentan con una serie de elementos HTML, formados por un conjunto de etiquetas y atributos. 
+                Los elementos HTML son los bloques de construcción de una página web. Una etiqueta indica al navegador dónde empieza y termina un elemento, mientras que un atributo describe las características de un <br>
+                Las tres partes principales de un elemento son:
+                 <ul>
+                    <li><b>Etiqueta de apertura.</b> Se utiliza para indicar dónde empieza a tener efecto un elemento. Esta se envuelve con corchetes de apertura y cierre. 
+                        Teniendo a la vez atributos. Por ejemplo, usa la etiqueta de apertura 
+                        <code>&lt;<span>p</span>&gt;</code> para crear un párrafo.</li>
+                    <li><b>Contenido.</b> Es el resultado que ven los demás usuarios.</li>
+                    <li><b>Etiqueta de cierre.</b> Igual que la de apertura, pero con una barra inclinada antes del nombre del elemento. Por ejemplo, 
+                        <code>&lt;<span>/p</span>&gt;</code> para terminar un párrafo.</li>
+                 </ul>       
+            </p>       
+            <img src="img/etiquetaHTML.png" alt="Partes de etiqueta HTML" width="40%" height="40%">
+            <p>
+                Es este caso el atributo <i>class</i> se usa para añadir información a diferentes elementos con el mismo valor de <i>class</i> pero esto es usado más
+                para efectos de desarrollo y programación. 
+            </p>
+            <p>
+                Sin embargo la norma de etiqueta de apertura y de cierre no aplica en todos los casos y hay ciertas etiquetas que no necesitan de cierrre para funcionar. Como por ejemplo:
+            </p>
+            <img src="img/etiquetaIMG.PNG" alt="Etiqueta IMG" width="40%" height="40%">
+            <p>
+                En general las etiquetas se pueden anidar pero no se pueden 'cruzar'. Estas dos etiquetas 
+                <code>&lt;<span>p</span>&gt;</code> y 
+                <code>&lt;<span>div</span>&gt;</code>, están anidadas correctamente:  
+            </p>
+            <img src="img/anidadOk.PNG" alt="Anidado Correctamente" width="20%" height="20%">
+            <p>
+                Es incorrecto cruzarlas así:  
+            </p>
+            <img src="img/anidadNo.PNG" alt="Anidado Incorrectamente" width="20%" height="20%">
+
+            <table border="0">
+                <tr><td width="65%">
+            <p>
+                <b>Estructura básica de la página:</b>
+                La primera línea
+                <code>&lt;<span>!DOCTYPE ...</span>&gt;</code>
+                no es propiamente una etiqueta de HTML, sino una declaración o instrucción al navegador sobre la versión de HTML que utiliza la página.
+                Para la versión HTML5, el tipo de documento es: 
+                <code>
+                    &lt;<span>!DOCTYPE html</span>&gt;
+                </code><br><br>
+                El resto del documento HTML está contenido dentro de la etiqueta 
+                <code>&lt;<span>html</span>&gt;&lt;<span>/html</span>&gt;</code>.
+                Para indicar el idioma es conveniente añadir el atributo lang="es": 
+                <code>
+                    &lt;<span>html lang="es"</span>&gt;&lt;<span>/html</span>&gt;
+                </code><br><br>
+                Dentro de la etiqueta 
+                <code>&lt;<span>html</span>&gt;</code>, encontramos dos subdivisiones, la cabecera, delimitada por las etiquetas 
+                <code>&lt;<span>head</span>&gt;&lt;<span>/head</span>&gt;</code> y el cuerpo, delimitado por las etiquetas 
+                <code>&lt;<span>body</span>&gt;&lt;<span>/body</span>&gt;</code>.
+            </p>
+                </td>
+                <td width="35%">
+                    <img src="img/estructuraHTML.PNG" alt="Estructura HTML">
+                </td></tr>
+            </table>
+        </article>
+        <hr width="60%">
+        <article>
+            <h3>Interacción Humano Ordenador</h3>
+            <p>
+                La disciplina que estudia cómo las personas interactúan con las computadoras y hasta qué punto las computadoras se desarrollan para interactuar 
+                con las personas se llama <i>Interacción Humano-Computadora</i>. <b>HCI</b> consta de tres componentes: los usuarios, los ordenadores y la interacción entre ellos.
+            </p>
+            <p>
+                La Interacción Humano-Computadora se convirtió oficialmente en una disciplina con el advenimiento de la computadora personal. Con el primer Macintosh, IBM PC 5150 y 
+                Commodore 64 utilizados en la oficina, la gente empezó a darse cuenta de cómo esta transición afectará no sólo a su trabajo sino a sus vidas en general. 
+                Los PCs fueron lanzados con muchas nuevas características como procesadores de texto, facilidades de juego y ayudas de contabilidad. Con el tiempo, su nivel de sofisticación 
+                aumentó hasta el punto en que el objetivo era hacer que la interacción hombre-computadora se asemejara a la interacción entre humanos, de la forma más natural y sin fisuras posible.
+            </p>
+            <img src="img/HC1.jpg" alt="Interacción Humano-Computador">
+            <p>
+                En los últimos cinco años, HCI ha pasado rápidamente de estudiar la interacción con los ordenadores de sobremesa a centrarse casi exclusivamente en los dispositivos móviles.
+            </p>
+            <p>
+                <b>Usabilidad:</b> La usabilidad es uno de los conceptos clave de HCI. Se trata de hacer que los sistemas sean fáciles de aprender y usar. Mejora la competitividad, la fidelización 
+                de los clientes y reduce los costos. En la fase de prototipado, durante las pruebas de usabilidad, el equipo establece los aspectos positivos y negativos del prototipo antes de seguir 
+                desarrollándolo. Las pruebas de usabilidad se basan en factores psicológicos humanos y en la investigación de los usuarios. Los sistemas se prueban en escenarios de la vida real para 
+                permitir a los equipos tener una imagen detallada de cómo funciona el sistema. La usabilidad es un aspecto significativo de la capacidad de un sistema para completar una tarea. 
+                Es la diferencia entre hacer el mínimo requerido y realizarlo. 
+            </p>
+            <img src="img/HC2.jpg" alt="Facilidad de uso">
+            <p>
+                <b>Eventos importantes para la HCI:</b> 
+                <ul type="square">
+                    <li>La invencion de los tubos de rayos catodicos y el lapiz optico dio origen al desarrollo de tecnicas para la mejora de la interaccióon humano-computadora.</li>
+                    <li>Una de las primeras tecnicas fue desarrollada por Ivan Sutherland con su programa Sketchpad, desarrollado durante su tesis doctoral en 1963.</li>
+                    <li>Sketchpad fue el primer programa creado para realizar dibujo por computadora.</li>
+                    <li>Sutherland, junto con su estudiante Bob Sproull, implemento un sistema de realidad virtual en 1966. </li>
+                    <li>Dicho sistema permitía a los usuarios con ayuda de un casco simular que entraban a una habitacion y que podían mirar en todas direcciones. </li>
+                    <li>Dynabook, creado por Alan Key en 1968, era una especie de dispositivo electronico similar a una Tablet. Este dispositivo pretendía acercar a los niños al mundo digital.</li>
+                </ul>
+            </p>
+            <p>
+                <b>Otros Dispositivos y Conceptos Pioneros:</b>
+                <ol>
+                    <li>Primer prototipo de mouse creado por Douglas Engelbart en 1963.</li>
+                    <li>La metáfora de escritorio introducida por Alan Kay en 1970.</li>
+                    <li>Uso de ventanas y punteros.</li>
+                    <li>Dispositivos de entrada/salida como la impresora.</li>
+                </ol>
+            </p>
+        </article>
+    </section>
+    <!-- Fin contenido de la página -->
+    <hr width="60%">
+    <h5>Mockup</h5>
+    <img src="img/MockupF2.JPG" alt="Mockup Fase 2" width="50%" height="50%">
+    <hr width="60%">
+    <h5>Bibliografía</h5>
+    <section id="tarjetas">
+        <div class="tarjeta">
+            <p class="textB">
+                Clic, A. (Enero de 2019). Introducción a HTML (II). Obtenido de https://www.aulaclic.es/html/t_1_2.htm 
+            </p>
+        </div>
+        <div class="tarjeta">
+            <p class="textB">
+                Delgado, I. (s.f.). Obtenido de https://www.irinadelgado.com/category/desarrollo-web/
+            </p>
+        </div>
+        <div class="tarjeta">
+            <p class="textB">
+                Marketing Digital. (19 de 08 de 2017). Obtenido de http://www.noeliaespinosa.com/mostrar-codigo-html-sin-que-se-ejecute/
+            </p>
+        </div>
+        <div class="tarjeta">
+            <p class="textB">
+                OPINNO.IO. (22 de 07 de 2021). Los sistemas bien diseñados marcan la diferencia. Obtenido de https://blog.opinno.io/es/blog/que-es-la-interaccion-humano-computadora
+            </p>
+        </div>
+        <div class="tarjeta">
+            <p class="textB">
+                PNG, C. (s.f.). Obtenido de https://www.cleanpng.com/png-html5-video-mobile-app-development-web-application-2365016/download-png.html  
+            </p>
+        </div>
+    </section>
+    <hr width="60%">
+    <!-- Comienzo del pie de página -->
+    <footer>
+        <p>
+           <table><tr>
+            <td><img src="img/icon/skype.png" alt="deissycha@hotmail.com" width="24px" height="24px"></td><td>deissycha@hotmail.com  </td>
+            <td> - </td>
+            <td><img src="img/icon/correo.png" alt="deissycha@hotmail.com" width="24px" height="24px"></td><td>deissycha@hotmail.com  </td>
+            <td> - </td>
+            <td><img src="img/icon/calendario.png" alt="" width="24px" height="24px"></td><td>Septiembre 26 de 2022</td>
+            </tr></table>
+        </p>
+    </footer>
+    <!-- Fin del pie de pagina -->
+</body>
+</html>
